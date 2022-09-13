@@ -59,6 +59,14 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
+                <a-video
+                    src="#vid"
+                    scale="1 1 1"
+                    position="0 0 0"
+                    rotation="-10 0 0"
+                    class="clickable"
+                    gesture-handler
+                ></a-video> 
                 <a-image
                     src="assets/1.png"
                     scale="1 1 1"
@@ -122,14 +130,7 @@
                     gesture-handler
                 ></a-image>
                 
-                 <a-video
-                    src="#vid"
-                    scale="1 1 1"
-                    position="0 0 0"
-                    rotation="-10 0 0"
-                    class="clickable"
-                    gesture-handler
-                ></a-video>
+                
             </a-marker>
 
             <a-entity camera></a-entity>
